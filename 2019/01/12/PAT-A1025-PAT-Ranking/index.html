@@ -79,14 +79,17 @@
 
 
 
+<meta name="description" content="学生信息的结构体+sort()函数1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283#include &amp;quot;stdafx.h&amp;qu">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hello">
-<meta property="og:url" content="http://yoursite.com/2019/01/07/hello/index.html">
+<meta property="og:title" content="PAT  A1025  PAT Ranking">
+<meta property="og:url" content="http://yoursite.com/2019/01/12/PAT-A1025-PAT-Ranking/index.html">
 <meta property="og:site_name" content="Yao">
+<meta property="og:description" content="学生信息的结构体+sort()函数1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283#include &amp;quot;stdafx.h&amp;qu">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-01-06T16:22:15.508Z">
+<meta property="og:updated_time" content="2019-01-12T08:11:39.630Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hello">
+<meta name="twitter:title" content="PAT  A1025  PAT Ranking">
+<meta name="twitter:description" content="学生信息的结构体+sort()函数1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283#include &amp;quot;stdafx.h&amp;qu">
 
 
 
@@ -116,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/01/07/hello/">
+  <link rel="canonical" href="http://yoursite.com/2019/01/12/PAT-A1025-PAT-Ranking/">
 
 
 
 
 
-  <title>hello | Yao</title>
+  <title>PAT  A1025  PAT Ranking | Yao</title>
   
 
 
@@ -229,7 +232,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/07/hello/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/12/PAT-A1025-PAT-Ranking/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="YaoHan">
@@ -246,7 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">hello</h1>
+          <h1 class="post-title" itemprop="name headline">PAT  A1025  PAT Ranking</h1>
         
 
         <div class="post-meta">
@@ -258,8 +261,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-01-07T00:22:15+08:00">
-                2019-01-07
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-01-12T16:10:33+08:00">
+                2019-01-12
               </time>
             
 
@@ -296,7 +299,8 @@
       
 
       
-        
+        <p>学生信息的结构体+sort()函数<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br></pre></td><td class="code"><pre><span class="line">#include &quot;stdafx.h&quot;</span><br><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;iomanip&gt;</span><br><span class="line">#include&lt;algorithm&gt;</span><br><span class="line">#include&lt;vector&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">struct student &#123;</span><br><span class="line">	string num;</span><br><span class="line">	int mark;</span><br><span class="line">	int group;</span><br><span class="line">	int grouprank;</span><br><span class="line">	int allrank;</span><br><span class="line">&#125;;</span><br><span class="line">struct group &#123;</span><br><span class="line">	vector&lt;student&gt;oneg;</span><br><span class="line">&#125;;</span><br><span class="line">bool cmp(student a, student b) &#123;</span><br><span class="line">	if (a.mark == b.mark)</span><br><span class="line">		return a.num &lt; b.num;</span><br><span class="line">	else</span><br><span class="line">		return a.mark &gt; b.mark;</span><br><span class="line">&#125;</span><br><span class="line">int main()&#123;</span><br><span class="line">	int testnum;</span><br><span class="line">	cin &gt;&gt; testnum;</span><br><span class="line">	vector&lt;group&gt;alltemp;</span><br><span class="line">	for (int i = 1; i &lt;= testnum; i++) &#123;</span><br><span class="line">		int groupnum;</span><br><span class="line">		cin &gt;&gt; groupnum;</span><br><span class="line">		 group tempgroup;</span><br><span class="line">		//存入每组的学生中的每一个</span><br><span class="line">		for (int j = 1; j &lt;= groupnum; j++) &#123;</span><br><span class="line">			string num;</span><br><span class="line">			int mark;</span><br><span class="line">			cin &gt;&gt; num;</span><br><span class="line">			cin &gt;&gt; mark;</span><br><span class="line">			student temp;</span><br><span class="line">			temp.num = num;</span><br><span class="line">			temp.mark = mark;</span><br><span class="line">			temp.group = i;</span><br><span class="line">			tempgroup.oneg.push_back(temp);</span><br><span class="line">		&#125;</span><br><span class="line">		sort(tempgroup.oneg.begin(), tempgroup.oneg.end(), cmp);</span><br><span class="line">		//对一组内的数据标记组内排序</span><br><span class="line">		tempgroup.oneg[0].grouprank = 1;</span><br><span class="line">		int now = 2;</span><br><span class="line">		for (int i = 1; i &lt; tempgroup.oneg.size(); i++) &#123;</span><br><span class="line">			if (tempgroup.oneg[i].mark == tempgroup.oneg[i - 1].mark)</span><br><span class="line">				tempgroup.oneg[i].grouprank = tempgroup.oneg[i - 1].grouprank;</span><br><span class="line">			else</span><br><span class="line">				tempgroup.oneg[i].grouprank = now;</span><br><span class="line">			now++;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		alltemp.push_back(tempgroup);//存入完整的一组</span><br><span class="line">	&#125;</span><br><span class="line">	vector&lt;student&gt;all;</span><br><span class="line">	for (int i = 0; i &lt; alltemp.size(); i++)</span><br><span class="line">	&#123;</span><br><span class="line">		for (int j = 0; j &lt; alltemp[i].oneg.size(); j++)</span><br><span class="line">		&#123;</span><br><span class="line">			all.push_back(alltemp[i].oneg[j]); </span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	sort(all.begin(), all.end(), cmp);</span><br><span class="line">	//对所有数据排序</span><br><span class="line">	all[0].allrank = 1;</span><br><span class="line">	int now=2;</span><br><span class="line">	for (int i = 1; i &lt; all.size(); i++) &#123;</span><br><span class="line">		if (all[i].mark == all[i - 1].mark)</span><br><span class="line">			all[i].allrank = all[i - 1].allrank;</span><br><span class="line">		else</span><br><span class="line">			all[i].allrank = now;</span><br><span class="line">		now++;</span><br><span class="line">	&#125;</span><br><span class="line">	//输出测试</span><br><span class="line">	cout &lt;&lt; all.size() &lt;&lt; endl;</span><br><span class="line">	for (int i = 0; i &lt; all.size(); i++)</span><br><span class="line">	&#123;</span><br><span class="line">			cout&lt;&lt;all[i].num&lt;&lt; &quot; &quot; &lt;&lt; all[i].allrank &lt;&lt; &quot; &quot;  &lt;&lt; all[i].group &lt;&lt; &quot; &quot; &lt;&lt; all[i].grouprank &lt;&lt; &quot; &quot; &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+
       
     </div>
     
@@ -320,8 +324,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/01/06/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
+              <a href="/2019/01/11/test1/" rel="next" title="test1">
+                <i class="fa fa-chevron-left"></i> test1
               </a>
             
           </div>
@@ -329,10 +333,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/01/11/test/" rel="prev" title="test">
-                test <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
